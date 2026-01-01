@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../home_page/index.css">
+    <script src="../../components/header/header.js"></script>
+    <script src="../../components/homePage/featured_yacht/index.js"></script>
+    <script src="../../components/homePage/pricing_box/index.js"></script>
+    <script src="../../components/ready_to_set_sail/index.js"></script>
+    <script src="../../components/footer/footer.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header-component
+        title="HOME"
+        page="HOME"
+    ></header-component>
+    <div style="height: 1px;"></div>
+    <div class="page-wrapper-center">
+    <div class="hero-layout-container">
+        <div class="hero-left-content">
+            <div class="hero-text-block">
+                <h3>Yacht Club & Boat Rental</h3>
+                <h1>Discover the Freedom of the Open Sea</h1>
+                <p>
+                    Vitae nulla feugiat cursus id senectus cursus tristique lacinia ornare. Integer dui pretium 
+                    et faucibus egestas. Adipiscing egestas non aenean mauris donec in adipiscing id tempor.
+                </p>
+            </div>
+            <button class="hero-primary-button">Discover more</button>
+        </div>
+
+        <div class="hero-right-content">
+            <div class="hero-image-card">
+                <p class="hero-badge-discount">30% off</p>
+                <p class="hero-badge-rating">4.5/5</p>
+                <img class="hero-main-image" src="../../assets/pictures/homePage/sea_image_for_intro.webp">
+                <img class="hero-location-icon" src="../../assets/pictures/homePage/map-location-svgrepo-com.svg">
+                <p class="hero-location-text">Caracas, Venezuela</p>
+                <img class="hero-floating-icon" src="../../assets/pictures/homePage/icon_intro.png">
+            </div>
+
+            <form class="hero-booking-form">
+                <div class="form-field-full">
+                    <label>Location</label>
+                    <input type="text" placeholder="City, Country, etc">
+                </div>
+
+                <div class="form-field-grid">
+                    <div class="form-field-half">
+                        <label>From</label>
+                        <input type="text" placeholder="Departure Date">
+                    </div>
+                    <div class="form-field-half">
+                        <label>To</label>
+                        <input type="text" placeholder="Return Date">
+                    </div>
+                </div>
+
+                <button class="hero-form-submit">Book Now</button>
+            </form>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <div class="about-section-wrapper">
+        <div class="about-text-column">
+            <h3 class="about-eyebrow-title">About us</h3>
+            <h1 class="about-main-heading">Yachtera: Your Trusted Sailing Partner</h1>
+            <p class="about-description-text">
+                Vitae nulla feugiat cursus id senectus cursus tristique lacinia ornare. Integer dui pretium et faucibus egestas. Adipiscing egestas non aenean mauris donec in adipiscing id tempor.
+            </p>
+        </div>   
+
+        <div class="about-logos-column">
+            <img class="about-client-logo" src="../../assets/pictures/homePage/Logo_Client1.png">
+            <img class="about-client-logo" src="../../assets/pictures/homePage/Logo_Client2.png">
+            <img class="about-client-logo" src="../../assets/pictures/homePage/Logo_Client3.png">
+            <img class="about-client-logo" src="../../assets/pictures/homePage/Logo_Client4.png">
+            <img class="about-client-logo" src="../../assets/pictures/homePage/Logo_Client5.png">
+        </div>  
+    </div>
+
+
+    <div style="height: 20vh; background-color: #183170;"></div>
+
+
+    <div>
+        <div class="featured_yacht_header"> 
+            <h2>Featured Yachts</h2>
+            <button class="btn">See All</button>
+        </div>
+    </div>
+    <div class="featured_yacht_style">
+        <featured-yacht
+        image="../../assets/pictures/homePage/aqua_horizon.webp"
+        yachtName="Aqua Horizon"
+        price="$280 /day">
+        </featured-yacht>
+        <featured-yacht
+        image="../../assets/pictures/homePage/ocean_dream.webp"
+        yachtName="Ocean Dream"
+        price="$150 /day">
+        </featured-yacht>
+        <featured-yacht
+        image="../../assets/pictures/homePage/sea_breeze.webp"
+        yachtName="Sea Breeze"
+        price="$180 /day">
+        </featured-yacht>
+    </div>
+
+
+    <section class="services-section-wrapper">
+        <h3 class="services-section-subtitle">OUR SERVICES</h3>
+        <h2 class="services-section-title">Your Gateway to Exceptional Boating Experiences</h2>
+
+        <div class="services-content-layout">
+            <div class="services-images-wrapper">
+                <div class="services-large-image-box">
+                    <img src="../../assets/pictures/homePage/large-image.jpg" alt="Large Image">
+                </div>
+
+                <div class="services-overlay-info-box">
+                    <div class="services-small-image-box">
+                        <img src="../../assets/pictures/homePage/small-image.jpg" alt="Small Image">
+                    </div>
+
+                    <div class="services-stats-card">
+                        <div class="services-stats-content">
+                            <h3>1,200+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-cards-grid">
+                <div class="services-card-item">
+                    <div class="services-card-icon">
+                        <img src="../../assets/pictures/homePage/cruiseship.png">
+                    </div>
+                    <h4>Yacht Rentals</h4>
+                    <p>Purus quis semper elementum viverra tellus. Urna arcu pulvinar est sodales. Faucibus pulvinar.</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="services-card-item">
+                    <div class="services-card-icon">
+                        <img src="../../assets/pictures/homePage/lifesaver.png">
+                    </div>
+                    <h4>Yacht Club</h4>
+                    <p>Purus quis semper elementum viverra tellus. Urna arcu pulvinar est sodales. Faucibus pulvinar.</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="services-card-item">
+                    <div class="services-card-icon">
+                        <img src="../../assets/pictures/homePage/Vector2.png">
+                    </div>
+                    <h4>Private Events</h4>
+                    <p>Purus quis semper elementum viverra tellus. Urna arcu pulvinar est sodales. Faucibus pulvinar.</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="services-card-item">
+                    <div class="services-card-icon">
+                        <img src="../../assets/pictures/homePage/windrose.png">
+                    </div>
+                    <h4>Chartered Cruises</h4>
+                    <p>Purus quis semper elementum viverra tellus. Urna arcu pulvinar est sodales. Faucibus pulvinar.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="whyChooseUs__container">
+        <div style="height: 25px;"></div>
+
+
+        <div class="whyChooseUs__section">
+            <div class="whyChooseUs__columns">
+
+                <div class="whyChooseUs__leftColumn">
+                    <h3>WHY CHOOSE US</h3>
+                    <h2>Top Reasons to Choose Yachtera</h2>
+                    <p>Id dignissim ac ultrices sed imperdiet id. Odio velit morbi cum a magna euismod. Commodo amet mauris quis at.</p>
+
+                    <div class="whyChooseUs__reasonsRow">
+                        <div class="whyChooseUs__reasonCard">
+                            <h1>01</h1>
+                            <h3>Luxurious Fleet</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="whyChooseUs__reasonCard">
+                            <h1>02</h1>
+                            <h3>Experienced Team</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="whyChooseUs__bookingBox">
+                        <h3>Embark on Your Dream <br />Voyage Today!</h3>
+                        <button class="primaryAction__button">Book Now!</button>
+                    </div>
+                </div>
+
+                <div class="whyChooseUs__rightColumn">
+                    <div class="whyChooseUs__imageWrapper">
+                        <img class="whyChooseUs__image" src="../../assets/pictures/homePage/yacht.jpg">
+                    </div>
+
+                    <div class="whyChooseUs__valuesRow">
+                        <div class="whyChooseUs__valueItem">
+                            <h1>25+</h1>
+                            <p>Total Yacht Fleet</p>
+                        </div>
+                        <div class="whyChooseUs__valueItem">
+                            <h1>60+</h1>
+                            <p>Exclusive Destinations</p>
+                        </div>
+                        <div class="whyChooseUs__valueItem">
+                            <h1>32+</h1>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+
+        <div class="happy__clients">
+            <div class="clients__header"> 
+                <h2>Our Happy Clients</h2>
+                <button class="btn">See All</button>
+            </div>
+            <div class="clients__section">
+                <div class="happy__client">
+                    <img class="client__img" src="../../assets/pictures/homePage/happy_client1.webp">
+                        <div class="client__info">
+                            <p class="client__name">Todd Schanefer</p>
+                            <p class="client__description"> ○ lorem ionsectetur, adipisicing elit. Quia doloribus odit iste repellat omnis ex distinctio voluptates, cumque impedit a ipsum illo quod perspiciatis delectus reiciendis, voluptate harum dignissimos. Minima!</p>
+                        </div>
+                </div>
+                <div class="happy__client">
+                    <img class="client__img" src="../../assets/pictures/homePage/happy_client2.webp"> 
+                    <div class="client__info"> 
+                        <p class="client__name">Clifford Goyette</p>
+                        <p class="client__description"> ○ lorem ipsumr sitisicing elit. Hic ipsam quidem a repudiandae fugit, suscipit reiciendis atque nesciunt aliquid illo in distinctio tempore quasi illum quae qui d</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="pricing_box">
+        <div>
+            <h2 class="subtitle_pricing">Pricing Plans</h2>
+            <h1 class="main_title_pricing">Choose the Perfect Plan for Your Yacht Adventures</h1>
+        </div>
+        <div class="pricing_container">
+            <pricing-box
+                packageName = "Silver Package"
+                price = "$3,500"
+                firstListItem = "Access to a selection of standard yachts"
+                secondListItem = "Basic amenities included"
+                thirdListItem = "Standard crew services"
+                idealFor = "Casual outings and small gatherings"
+                backgroundColor = "#F6F6F9"
+                textColor = "#183170;"
+                packageNameColor = "#020713;"
+                priceColor = "#183170"
+                ListItemColor = "#183170;">
+            </pricing-box>
+
+            <pricing-box
+                packageName = "Gold Package"
+                price = "$5,500"
+                firstListItem = "Access to premium yachts with enhanced amenities"
+                secondListItem = "Professional crew services"
+                thirdListItem = "Customizable itinerary options"
+                idealFor = "Special occasions and corporate events"
+                backgroundColor = "#183170"
+                textColor = "#F6F6F9"
+                packageNameColor = "#FF7928;"
+                priceColor = "#F6F6F9"
+                ListItemColor = "#F6F6F9">
+            </pricing-box>
+
+            <pricing-box
+                packageName = "Platinum Package"
+                price = "$3,500"
+                firstListItem = "Access to luxury yachts with top-tier amenities"
+                secondListItem = "VIP concierge services"
+                thirdListItem = "Access to elite destinations"
+                idealFor = "High-end celebrations and executive retreats"
+                backgroundColor = "#F6F6F9"
+                textColor = "#183170"
+                packageNameColor = "#020713;" 
+                priceColor ="#183170"
+                ListItemColor = "#183170;">
+            </pricing-box>
+        </div>
+    </div>
+
+
+    <ready-sail></ready-sail>
+
+
+    <div class="galleryUpdates__section">
+        <div class="galleryUpdates__header">
+            <h1>Sail through Our Fresh Gallery Updates</h1>
+            <button class="galleryUpdates__instagramBtn">Instagram</button>
+        </div>
+        <div class="galleryUpdates__grid">
+            <img class="galleryUpdates__image1" src="../../assets/pictures/homePage/yacht_gallery1.webp">
+            <img class="galleryUpdates__image2" src="../../assets/pictures/homePage/yacht_gallery2.webp">
+            <img class="galleryUpdates__image3" src="../../assets/pictures/homePage/yacht_gallery3.webp"> 
+            <img class="galleryUpdates__image4" src="../../assets/pictures/homePage/yacht_gallery4.webp"> 
+        </div>
+    </div>
+
+    <footer-component></footer-component>
+    
+</body>
+</html>
