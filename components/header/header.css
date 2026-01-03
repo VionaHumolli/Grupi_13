@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerContainer{
+    background-color: #183170;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.headerLeftSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.headerImg{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.headerImgMail{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.headerRightSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+    color: white;
+    gap: 6px;
+    font-size: 20px;
+}
+
+.navbarContainer{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbarLeft{
+    display: flex;
+    flex-direction: row;
+    color: #183170;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    letter-spacing: 3px;
+}
+
+.navbarMiddle{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.navbarRightContainer{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 40px;
+}
+
+.navbarRight{
+    background-color:#183170;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarImg{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.blueHeader{
+    background-color: #183170;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 15px;
+}
+
+.headerParagraph{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.blueHeader h1{
+    font-size: 80px;
+}
+
+.blueHeader h5{
+    font-size: 17px;
+    margin-top: 0.5px;
+}
+
+.blueHeader h6{
+    font-size: 19px;
+    color: rgb(168, 120, 31);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navbarRight a{
+    color: white;
+}
+
+@media (max-width: 500px) {
+    
+    .navbarContainer h3,
+    .headerContainer h5 {
+        display: none;
+    }
+
+    .headerContainer.menuActive h5,
+    .headerContainer.menuActive h3,
+    .navbarContainer.menuActive p,
+    .navbarContainer.menuActive a {
+        font-size: 16px;
+    }
+
+}
