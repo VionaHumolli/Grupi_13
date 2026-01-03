@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ready_to_set_sail{
+    height: 70vh;
+    margin-top: 20px;
+}
+
+.container_setsail {
+    height: 60vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #1f3b71;
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ 
+}
+
+
+.container_setsail h1 {
+    font-family: Unna;
+    font-size: 84px;
+    font-weight: 400;
+    line-height: 96.6px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+.container_setsail p {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+.button_setsail {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.button_setsail button {
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.book-now {
+    font-family: Unna;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.74px;
+    text-align: left;
+    color: white;
+    background-color:#3B71FB;
+
+}
+
+.book-now:hover {
+    background-color: #3d64c6; 
+}
+
+.contact-us {
+    font-family: Unna;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.74px;
+    text-align: left;
+    color:#183170;
+    ;
+    
+}
+
+.contact-us:hover {
+    background-color: #dcdcdc; 
+}
+
+@media (max-width: 500px) {
+    .ready_to_set_sail {
+        height: auto; 
+        margin-top: 10px;
+    }
+
+    .container_setsail {
+        height: auto; 
+        padding: 15px;
+    }
+
+    .container_setsail h1 {
+        font-size: 48px; 
+        line-height: 56px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .container_setsail p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .button_setsail {
+        flex-direction: column; 
+        align-items: center;
+        gap: 10px;
+    }
+
+    .button_setsail button {
+        width: 80%; 
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+    .book-now {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .contact-us {
+        font-size: 16px;
+        text-align: center;
+    }
+}
